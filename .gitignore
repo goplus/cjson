@@ -4,9 +4,18 @@
 # Binaries for programs and plugins
 *.exe
 *.exe~
-*.dll
-*.so
-*.dylib
+
+# *.dll
+# *.so
+# *.dylib
+
+test.db
+llgo_autogen.ll
+stories*.bin
+.DS_Store
+err.log
+
+build.dir/
 
 # Test binary, built with `go test -c`
 *.test
@@ -18,4 +27,4 @@
 # vendor/
 
 # Go workspace file
-go.work
+go.work*
