@@ -16,6 +16,7 @@ stories*.bin
 err.log
 
 build.dir/
+.vscode/
 
 # Test binary, built with `go test -c`
 *.test
