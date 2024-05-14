@@ -85,12 +85,12 @@ func (o *JSON) Delete() {}
 
 // Append item to the specified array.
 //
-// llgo:link (*JSON).Add C.cJSON_AddItemToArray
+// llgo:link (*JSON).AddItem C.cJSON_AddItemToArray
 func (o *JSON) AddItem(item *JSON) c.Int { return 0 }
 
 // Append item to the specified object.
 //
-// llgo:link (*JSON).Set C.cJSON_AddItemToObject
+// llgo:link (*JSON).SetItem C.cJSON_AddItemToObject
 func (o *JSON) SetItem(key *c.Char, item *JSON) c.Int { return 0 }
 
 // llgo:link (*JSON).CStr C.cJSON_PrintUnformatted
